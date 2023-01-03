@@ -7,6 +7,7 @@ main {
     align-content: center;
     max-width: 1400px;
     margin: auto;
+    padding-bottom: 30px;
 
 }
 .main-reddit-div {
@@ -16,6 +17,7 @@ main {
     flex-wrap: wrap;
     gap: 30px;
     margin: 80px 0 0 0;
+    max-width: 1050px
 }
 
 .reddit-posts{
@@ -63,6 +65,13 @@ h3{
     font-family: 'Quicksand', sans-serif;
     font-size: x-large;
 }
-.also-header{
 
+.outer-boxing{
+    display: flex;
+    justify-content: center;
+}
+
+.inner-boxing {
+    flex-shrink: 1;
+    flex-grow: 0;
 }

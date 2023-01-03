@@ -31,8 +31,8 @@ function Home() {
                     <h1>Reddit</h1>
 
                 </div>
-                <section className="outer-container">
-                    <div className="inner-container">
+                <section className="outer-boxing">
+                    <div className="inner-boxingr">
                         <h2>Hottest Posts</h2>
                         <p><strong>on reddit right now</strong></p>
                         <div className="main-reddit-div">
