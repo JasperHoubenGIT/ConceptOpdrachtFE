@@ -19,6 +19,14 @@
     margin: auto;
 }
 footer{
+
+    display: block;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    max-width: 1400px;
+    margin: auto;
     background-color: black;
     padding: 15px;
     color: #ffffff;

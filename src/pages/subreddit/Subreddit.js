@@ -34,16 +34,16 @@ function Subreddit() {
 
             <main>
                 <section>
-                {Object.keys(data).length > 0 && (
-                    <div className="subreddit-div">
-                        <h3>Title</h3>
-                        <p>{data.title}</p>
-                        <h3>Description</h3>
-                        <p>{data.public_description}</p>
-                        <h3>Number of subscribers</h3>
-                        <p>{data.subscribers}</p>
-                    </div>
-                )}
+                    {Object.keys(data).length > 0 && (
+                        <div className="subreddit-div">
+                            <h3>Title</h3>
+                            <p>{data.title}</p>
+                            <h3>Description</h3>
+                            <p>{data.public_description}</p>
+                            <h3>Number of subscribers</h3>
+                            <p>{data.subscribers}</p>
+                        </div>
+                    )}
                 </section>
             </main>
         </>

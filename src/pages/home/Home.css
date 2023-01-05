@@ -7,7 +7,6 @@ main {
     align-content: center;
     max-width: 1400px;
     margin: auto;
-    padding-bottom: 30px;
 
 }
 .main-reddit-div {
@@ -17,7 +16,6 @@ main {
     flex-wrap: wrap;
     gap: 30px;
     margin: 80px 0 0 0;
-    max-width: 1050px
 }
 
 .reddit-posts{
@@ -65,13 +63,30 @@ h3{
     font-family: 'Quicksand', sans-serif;
     font-size: x-large;
 }
-
-.outer-boxing{
+.outer-container{
     display: flex;
     justify-content: center;
+    max-width: 1400px;
+    padding-bottom: 30px;
 }
 
-.inner-boxing {
+.inner-container {
     flex-shrink: 1;
     flex-grow: 0;
+    display: block;
+    max-width: 1050px;
+
+}
+
+.also-header{
+    display: block;
+    justify-items: center;
+    justify-content: center;
+    background: rgb(231,97,58);
+    background: linear-gradient(90deg, rgba(231,97,58,0.80015756302521) 0%, rgba(231,97,58,0.9066001400560224) 35%, rgba(231,97,58,1) 100%);
+    background-size: 200% 100%;
+    align-items: center;
+    align-content: center;
+    max-width: 1400px;
+    margin: auto;
 }
